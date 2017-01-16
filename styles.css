@@ -1,0 +1,53 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-image: url("http://livehdwallpaper.com/wp-content/uploads/2016/11/Dance-floor-Wallpaper-HD-background.jpg");
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+/*  border:10px solid white;  dancer shape 
+  border-radius:20px;*/
+  position:absolute;
+}
+.dancer2{
+/*  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid red;
+  border-left: 60px solid red;
+  border-bottom: 60px solid red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;*/
+  position: absolute;
+}
+
+.dancer3{
+/*  width: 0;
+  height: 0;
+  border-bottom: 60px solid black;
+  border-top: 60px solid black;
+  border-left: 60px solid yellow;
+  border-right: 60px solid yellow;
+  border-radius: 60px; 
+  border-radius: 60px; 
+  border-radius: 60px;*/
+  position: absolute;
+}
